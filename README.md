@@ -21,6 +21,16 @@ This project is an autonomous Rubik's cube-solving robot that uses computer visi
     *   run send\_to\_esp.py
     *   the bot will solve the cube
 
+
+## How It Works  
+1. **Calibration** – The system dynamically samples color ranges using the **LAB color space**, ensuring consistent detection under different lighting conditions.  
+2. **State Detection** – Using **OpenCV**, the solver scans all cube faces and extracts the current cube state.  
+3. **Solution Execution** – The **Kociemba algorithm** calculates the optimal solution, which is then executed by the robotic mechanism.  
+
+## Features  
+- Real-time color calibration for accurate cube recognition  
+- Efficient state extraction using advanced computer vision techniques  
+- Optimized move sequence generation for fast and effective solving  
 ## Project Context and Future Potential
 
 This iteration of the project was developed under significant budget constraints. To manage costs:
