@@ -1,42 +1,9 @@
-# import requests
-# from rubiks_solution import solution  # Import the solution string
-
-# # Replace with your ESP32's IP address (check Serial Monitor)
-# ESP32_IP = "192.168.107.61"  
-# URL = f"http://{ESP32_IP}/command"
-
-# def send_solution_to_esp32():
-#     """Send the solution string to ESP32 via HTTP POST."""
-#     try:
-#         # Send POST request with the solution string
-#         response = requests.post(
-#             URL,
-#             data=solution,
-#             headers={"Content-Type": "text/plain"},
-#             timeout=5
-#         )
-        
-#         if response.status_code == 200:
-#             print("ESP32 Response:", response.text)
-#         else:
-#             print(f"Failed to send solution. Status code: {response.status_code}")
-            
-#     except requests.exceptions.ConnectionError as e:
-#         print("Connection Error:", e)
-#     except requests.exceptions.Timeout:
-#         print("Timeout Error: ESP32 not responding.")
-#     except Exception as e:
-#         print("Error:", e)
-
-# if __name__ == "__main__":
-#     print("Sending solution to ESP32...")
-#     send_solution_to_esp32()
 
 
 import requests
 import time
 
-# Configuration - Replace with your ESP32 IPs
+
 MAIN_CONTROLLER_IP = "192.168.129.61"  # Handles L, R, F, B
 UD_CONTROLLER_IP = "192.168.129.250"    # Handles U, D
 
