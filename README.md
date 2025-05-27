@@ -35,10 +35,6 @@ With adequate funding, this system has the potential to be upgraded into a fully
 *   Performing all operations, including calibration, scanning, and execution, without human intervention.
 The primary limiting factors to achieving this are the current motor specifications and the extent of 3D-printed mechanical components.
 
-## Demo Videos
-
-*   **State Detection in Action:** `[Link to State Detection Demo Video Here]`
-*   **Full Solve Execution:** [Full_solve](vidsnimgs/cubesolver_full_solve.mp4)
 
 
 ---
